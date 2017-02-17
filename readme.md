@@ -1,0 +1,1 @@
+# Here comes my starting boilerplate for scss compilations
