@@ -4,9 +4,19 @@
 
 // Variables
 
+@import "../variables/global-general-variables";
+
 // Shared utilities
 
-@import "shared_utilities";
+@import "../shared_utilities/_shared_utilities";
 
+// override global variables
+
+@import "theme1/import-variables";
+
+// Here starts the actual coding to css styles for exporting to stylesheet.
+
+@import "../shared_utilities/norm/universal-border-box";
+@import "../shared_utilities/norm/normalize";
 
 
