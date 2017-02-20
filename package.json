@@ -1,16 +1,15 @@
 {
   "name": "scss-filip-ultimate-starting-point",
   "version": "1.0.0",
-  "description": "",
+  "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-  },
-  "keywords": [],
-  "author": "",
+  }, "keywords": ["Filip", "SCSS", "Boilerplate"],
+  "author": "Filip Vanden Eynde",
   "license": "ISC",
   "devDependencies": {
     "laravel-mix": "^0.8.1"
